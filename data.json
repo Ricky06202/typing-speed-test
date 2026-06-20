@@ -1,0 +1,62 @@
+[
+    {
+        "dificultad": "facil",
+        "texto": "el sol brilla en el cielo azul y los pajaros cantan alegremente en el jardin"
+    },
+    {
+        "dificultad": "facil",
+        "texto": "me gusta comer fruta fresca por las mañanas y tomar un vaso de agua fria"
+    },
+    {
+        "dificultad": "facil",
+        "texto": "el gato duerme sobre la mesa de madera mientras el perro juega con una pelota"
+    },
+    {
+        "dificultad": "facil",
+        "texto": "caminar por el parque es una actividad muy relajante para terminar el dia"
+    },
+    {
+        "dificultad": "facil",
+        "texto": "aprender a escribir rapido en la computadora requiere practicar todos los dias"
+    },
+    {
+        "dificultad": "normal",
+        "texto": "El desarrollo de software es una disciplina fascinante, donde la lógica y la creatividad se unen para resolver problemas cotidianos."
+    },
+    {
+        "dificultad": "normal",
+        "texto": "Si quieres mejorar tu velocidad de escritura, debes mantener una postura correcta y evitar mirar el teclado constantemente."
+    },
+    {
+        "dificultad": "normal",
+        "texto": "Ayer por la tarde fuimos a la biblioteca de la ciudad a buscar información sobre la historia de los lenguajes de programación."
+    },
+    {
+        "dificultad": "normal",
+        "texto": "La tecnología cambia a un ritmo asombroso, lo que nos obliga a mantenernos actualizados y aprender herramientas nuevas cada año."
+    },
+    {
+        "dificultad": "normal",
+        "texto": "Una alimentación equilibrada y un descanso adecuado son fundamentales para mantener un buen rendimiento mental durante el estudio."
+    },
+    {
+        "dificultad": "dificil",
+        "texto": "¡Atención! La tasa de éxito del algoritmo de cifrado RSA-2048 es del 99.9%; sin embargo, ¿estamos realmente seguros frente a la computación cuántica?"
+    },
+    {
+        "dificultad": "dificil",
+        "texto": "En la conferencia de 2026, el Dr. Martínez afirmó: 'El 85% de los sistemas basados en IA (Inteligencia Artificial) requieren supervisión constante'."
+    },
+    {
+        "dificultad": "dificil",
+        "texto": "Código fuente: `const calcularPPM = (caracteres, tiempo) => (caracteres / 5) / (tiempo / 60);` ¿Entiendes cómo funciona esta fórmula matemática?"
+    },
+    {
+        "dificultad": "dificil",
+        "texto": "Para resolver la ecuación x² - y³ = 42, el estudiante debió aplicar el teorema de Fermat (modificado para este caso particular) a las 03:15 a.m."
+    },
+    {
+        "dificultad": "dificil",
+        "texto": "¡Qué gran desafío! No solo debemos optimizar la base de datos (con más de 1,500,000 registros), sino también configurar el CORS y el Passenger WSGI en cPanel."
+    }
+]

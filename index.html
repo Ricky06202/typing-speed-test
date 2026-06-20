@@ -5,25 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba de velocidad de Escritura</title>
+    <script type="module" src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <Header>
+    <header>
         <div>
             <h1>Prueba de velocidad de Escritura</h1>
             <p>Escribe lo mas rapido que puedas en 60 segundos</p>
         </div>
         <div>
-            <p>Record Personal: <span>0</span></p>
+            <p>Record Personal: <span>0</span> PPM</p>
         </div>
-    </Header>
-    <section>
-        <div>
-            <p>PPM: <span>0</span></p>
-            <p>Precision: <span>0%</span></p>
+    </header>
+    <section class="panel-config">
+        <div class="estadisticas">
+            <p>PPM: <span>0</span></p><span class="divisor">|</span>
+            <p>Precision: <span>0%</span></p><span class="divisor">|</span>
             <p>Tiempo: <span>60s</span></p>
         </div>
+        <div class="configuraciones">
+            <p>Dificultad: <button class="boton-dificultad dificultad-activada">Facil</button><button
+                    class="boton-dificultad">Normal</button><button class="boton-dificultad">Dificil</button></p>
+            <span class="divisor">|</span>
+            <p>Modo: <button>Contrarreloj (60s)</button><button>Sin Errores</button></p>
+        </div>
     </section>
+    <hr class="divisor">
+    <section>
+        <p class="mecanografia"></p>
+    </section>
+    <hr class="divisor">
+    <section class="footer">
+        <button>Reiniciar Prueba</button>
+    </section>
+
 </body>
 
 </html>
