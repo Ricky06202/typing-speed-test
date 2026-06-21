@@ -53,6 +53,9 @@ section {
     font-size: xx-large;
     text-align: justify;
     height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .footer {
@@ -71,4 +74,14 @@ button {
     border-radius: 8px;
 }
 
-.dificultad-activada {}
+.boton-activado {
+    background-color: rgb(30, 30, 61);
+}
+
+.letra-acertada {
+    color: green;
+}
+
+.letra-erronea {
+    color: red;
+}
