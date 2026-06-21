@@ -80,8 +80,19 @@ button {
 
 .letra-acertada {
     color: green;
+    background-color: rgba(0, 128, 0, 0.15);
 }
 
 .letra-erronea {
     color: red;
+    background-color: rgba(255, 0, 0, 0.15);
+}
+
+.palabra {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.espacio {
+    display: inline-block;
 }

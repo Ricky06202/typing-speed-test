@@ -22,11 +22,25 @@ function sacarTextoSegun(dificultad) {
     return textosFiltrados[aleatorio].texto
 }
 
+let letrasHTML = []
+let letraActual = 0
+
 function actualizarTexto() {
     textoElegido = sacarTextoSegun(dificultadSeleccionada)
-    parrafo.innerHTML = textoElegido.split("").map((v) => (
-        `<span>${v === " " ? "&nbsp;" : v}</span>`
-    )).join("")
+
+    const palabras = textoElegido.split(" ")
+
+    parrafo.innerHTML = palabras.map((palabra) => {
+        const letras = palabra.split("").map((letra) => (
+            `<span>${letra}</span>`
+        )).join("")
+
+        return `<span class="palabra">${letras}</span>`
+    }).join(`<span class="espacio">&nbsp;</span>`)
+
+    // Seleccionamos de forma plana solo las letras y los espacios
+    letrasHTML = parrafo.querySelectorAll(".palabra span, .espacio")
+    letraActual = 0
 }
 
 botonesDificultad.forEach(element => {
@@ -54,9 +68,6 @@ botonesModo.forEach(element => {
 });
 
 actualizarTexto()
-
-let letrasHTML = parrafo.children
-let letraActual = 0
 
 document.addEventListener("keydown", (e) => {
     if (textoElegido.at(letraActual) === e.key) {
