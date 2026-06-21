@@ -82,3 +82,7 @@ document.addEventListener("keydown", (e) => {
         letraActual++
     }
 })
+
+document.getElementById("reiniciar").addEventListener("click", (e) => {
+    actualizarTexto()
+})

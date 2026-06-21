@@ -72,6 +72,7 @@ button {
     color: white;
     border: 1px solid grey;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .boton-activado {
